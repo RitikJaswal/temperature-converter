@@ -1,0 +1,41 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: blueviolet;
+    background-image: url(https://images.unsplash.com/photo-1524313118018-d8139913a0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI1fHxzeWVsbG93JTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+}
+
+
+.my-container {
+    margin-top: 6rem;
+    width: 50%;
+    height: 400px;
+    background-color: coral;
+    box-shadow: 10px 10px 10px 10px rgb(32, 31, 31);
+}
+
+.headone {
+    font-size: 24px;
+}
+
+.inputone {
+    width: 8rem;
+    background-color: rgb(32, 31, 31);
+}
+
+.selectone {
+    background-color: rgb(32, 31, 31);
+    width: 8rem;
+}
+
+.inputtwo {
+    background-color: rgb(32, 31, 31);
+
+}
+
+
+@media (max-width: 600px) {
+    .my-container{
+        width: 85% !important ;
+    }
+}
